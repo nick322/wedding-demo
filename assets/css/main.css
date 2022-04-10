@@ -2123,7 +2123,8 @@ input, select, textarea {
 			.main.style2 {
 				padding: 6em 15px 6em 15px;
 			}
-
+			section#one {background-position: top left, center center;}
+			section#two {background-position: top left, center center;}
 				.main.style2:before, .main.style2:after {
 					display: none !important;
 				}
@@ -2133,13 +2134,14 @@ input, select, textarea {
 				}
 
 				.main.style2 .content {
-					width: 100%;
+					width: 50%;
 					max-width: 100%;
 					text-align: center;
 					-moz-transform: none;
 					-webkit-transform: none;
 					-ms-transform: none;
 					transform: none;
+					font: -webkit-control;
 				}
 
 			.main.style3 {
@@ -2257,7 +2259,7 @@ input, select, textarea {
 		background: url("images/overlay.png"), url("../../images/one.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
-		background-position: top left, center center;
+		/* background-position: top left, center center; */
 	}
 
 /* Two */
@@ -2266,7 +2268,7 @@ input, select, textarea {
 		background: url("images/overlay.png"), url("../../images/two.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
-		background-position: top left, center center;
+		/* background-position: top left, center center; */
 	}
 
 /* Contact */
